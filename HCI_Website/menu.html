@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kkopi.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url('images/texture.png'); background-repeat: repeat-y; background-position: center top ; width: cover; opacity: 0.8;">
+    <div class="menu">
+        <div class="heading">
+            <h1>Kkopi.</h1>
+            <h3>&mdash;Menu&mdash;</h3>
+            <nav class="nav">
+                <ul>
+                    <li><a href="home.html" class="ey">Home</a></li>
+                    <li><a href="menu.html" class="ey">Menu</a></li>
+                    <li><a href="#contact" class="ey">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+
+        <!-- Best Sellers -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;Best Sellers&mdash;&mdash;&mdash;</h3>
+        </div>
+
+        
+        <div class="drink-items" data-name="Caramel Machiato" data-price="49">
+            <img src="images/caramel machiato.jpg" alt="Caramel Machiato">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Caramel Machiato</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>A classic combination of espresso, steamed milk, and caramel syrup, topped with a swirl of rich foam.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Cookies and Cream Milktea" data-price="49">
+            <img src="images/cookies and cream milktea.jpg" alt="Cookies and Cream Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Cookies and Cream Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the sweet and creamy blend of milk tea infused with the delightful taste of cookies and cream.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Winter Melon Milktea" data-price="49">
+            <img src="images/winter melon milktea.jpg" alt="Winter Melon Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Winter Melon Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the refreshing taste of winter melon combined with creamy milk tea for a delightful beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        
+
+        <div class="drink-items" data-name="Matcha Milktea" data-price="49">
+            <img src="images/matcha milktea.jpg" alt="Matcha Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Matcha Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the earthy flavors of high-quality matcha blended with creamy milk, creating a refreshing and antioxidant-rich beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Okinawa Milktea" data-price="49">
+            <img src="images/okinawa milk tea.jpg" alt="Okinawa Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Okinawa Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the unique blend of brown sugar and milk tea, reminiscent of the flavors found in the streets of Okinawa, Japan.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Matcha Iced Latte" data-price="49">
+            <img src="images/matcha iced latte.jpg" alt="Matcha Iced Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Matcha Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the perfect harmony of smooth milk and vibrant matcha over ice, offering a refreshing twist to the traditional latte.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+
+
+        <!-- Iced Lattes -->
+        <div class="section" id="iced-lattes">
+            <h3>&mdash;&mdash;&mdash;Iced Latte&mdash;&mdash;&mdash;</h3>
+        </div>
+    
+        
+        <div class="drink-items" data-name="Kkopi Original Iced Latte" data-price="49">
+            <img src="images/original iced latte.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Kkopi Original Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the rich and bold flavor of Kkopi's original iced latte, crafted with premium espresso and chilled milk for a refreshing treat.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Caramel Macchiato Iced Latte" data-price="49">
+            <img src="images/caramel machiato iced latte.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Caramel Macchiato Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the perfect balance of creamy milk, bold espresso, and sweet caramel syrup in every sip of our caramel macchiato iced latte.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Chocolate Iced Latte" data-price="49">
+            <img src="images/chocolate iced latte.jpg" alt="Chocolate Iced Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Chocolate Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the rich and creamy goodness of our chocolate iced latte, made with velvety milk and decadent chocolate for a delightful indulgence.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+    
+        <div class="drink-items" data-name="Vanilla Iced Latte" data-price="49">
+            <img src="images/vanilla iced latte.jpg" alt="Vanilla Iced Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Vanilla Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the smooth and creamy flavor of our vanilla iced latte, made with rich espresso and sweet vanilla syrup, served over ice.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="White Chocolate Iced Latte" data-price="49">
+            <img src="images/white chocolate iced latte.jpg" alt="White Chocolate Iced Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>White Chocolate Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the delightful combination of creamy white chocolate and espresso in our white chocolate iced latte, perfect for a sweet indulgence.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Hazelnut Iced Latte" data-price="49">
+            <img src="images/hazelnut iced latte.jpg" alt="Hazelnut Iced Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Hazelnut Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the rich and nutty flavor of hazelnut combined with smooth espresso in our hazelnut iced latte, a delightful treat for any coffee lover.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Muscovado Iced Latte" data-price="49">
+            <img src="images/muscovado iced latte.jpg" alt="Muscovado Iced Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Muscovado Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the deep and caramelized flavor of muscovado sugar blended with espresso and milk in our muscovado iced latte, a unique and indulgent beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Matcha Iced Latte" data-price="49">
+            <img src="images/matcha iced latte.jpg" alt="Matcha Iced Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Matcha Iced Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the refreshing and energizing blend of matcha and milk in our matcha iced latte, perfect for a delightful pick-me-up.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+    
+     
+
+        <!-- Non Caffeine -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;Non Caffeine&mdash;&mdash;&mdash;</h3>
+        </div>
+        
+            
+        <div class="drink-items" data-name="Strawberries & Cream" data-price="49">
+            <img src="images/strawberries and cream.jpg" alt="Strawberries & Cream">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Strawberries & Cream</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the luscious combination of ripe strawberries and creamy goodness in our Strawberries & Cream drink, perfect for a refreshing treat.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Iced Choco" data-price="49">
+            <img src="images/iced choco.jpg" alt="Iced Choco">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Iced Choco</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the rich and indulgent flavor of our Iced Choco, made with premium chocolate and chilled milk for a delightful beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Iced Choco Hazelnut" data-price="49">
+            <img src="images/iced choco hazelnut.jpg" alt="Iced Choco Hazelnut">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Iced Choco Hazelnut</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the delightful blend of chocolate and hazelnut in our Iced Choco Hazelnut, offering a rich and nutty flavor profile.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Tiger Sugar Milk" data-price="49">
+            <img src="images/tiger milk sugar.jpg" alt="Tiger Sugar Milk">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Tiger Sugar Milk</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the unique and indulgent taste of our Tiger Sugar Milk, featuring rich milk and decadent brown sugar swirls for a delightful beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Taro Cream Milk" data-price="49">
+            <img src="images/taro cream milk.jpg" alt="Taro Cream Milk">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Taro Cream Milk</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the creamy and exotic flavor of our Taro Cream Milk, featuring taro root extract blended with creamy milk for a unique and delightful beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+
+
+
+        <!-- Fruit Tea -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;Fruit Tea&mdash;&mdash;&mdash;</h3>
+        </div>
+    
+        
+        <div class="drink-items" data-name="Lychee Fruit Tea" data-price="49">
+            <img src="images/lychee fruitea.jpg" alt="Lychee Fruit Tea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Lychee Fruit Tea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the refreshing taste of our Lychee Fruit Tea, featuring the delicate sweetness of lychee infused with premium tea for a delightful beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Strawberry Fruit Tea" data-price="49">
+            <img src="images/strawberry fruitea.jpg" alt="Strawberry Fruit Tea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Strawberry Fruit Tea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the vibrant flavor of ripe strawberries in our Strawberry Fruit Tea, blended with premium tea to create a refreshing and fruity beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Green Apple Fruit Tea" data-price="49">
+            <img src="images/greenapple fruitea.jpg" alt="Green Apple Fruit Tea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Green Apple Fruit Tea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the crisp and tart flavor of green apples in our Green Apple Fruit Tea, perfectly balanced with premium tea for a refreshing and invigorating drink.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Tropical Berries Fruit Tea" data-price="49">
+            <img src="images/tropical berry fruitea.jpg" alt="Tropical Berries Fruit Tea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Tropical Berries Fruit Tea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy a burst of tropical flavors with our Tropical Berries Fruit Tea, featuring a blend of exotic berries infused with premium tea for a refreshing and fruity beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Grapes Fruit Tea" data-price="49">
+            <img src="images/grapes fruit tea.jpg" alt="Grapes Fruit Tea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Grapes Fruit Tea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the sweet and juicy flavor of grapes with our Grapes Fruit Tea, blended with premium tea to create a refreshing and fruity beverage perfect for any occasion.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+
+
+
+
+        <!-- MilkTea -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;MilkTea&mdash;&mdash;&mdash;</h3>
+        </div>
+    
+        
+        <div class="drink-items" data-name="Okinawa Milktea" data-price="49">
+            <img src="images/okinawa milk tea.jpg" alt="Okinawa Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Okinawa Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the rich and creamy flavor of Okinawa Milktea, crafted with a perfect blend of premium tea and brown sugar for a satisfyingly sweet beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Cookies and Cream Milktea" data-price="49">
+            <img src="images/cookies and cream milktea.jpg" alt="Cookies and Cream Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Cookies and Cream Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the delightful taste of Cookies and Cream Milktea, combining the creamy goodness of milk tea with the irresistible flavor of cookies for a satisfying treat.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Hokkaido Milktea" data-price="49">
+            <img src="images/hokkaido milk tea.jpg" alt="Hokkaido Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Hokkaido Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the creamy and flavorful Hokkaido Milktea, featuring a perfect blend of premium tea and Hokkaido milk for a rich and indulgent beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Muscovado Milktea" data-price="49">
+            <img src="images/muscovado milk tea.jpg" alt="Muscovado Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Muscovado Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the unique and rich flavor of Muscovado Milktea, crafted with premium tea and the distinctive sweetness of muscovado sugar for a satisfyingly complex drink.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Chocolate Milktea" data-price="49">
+            <img src="images/chocolate milk tea.jpg" alt="Chocolate Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Chocolate Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the rich and indulgent flavor of Chocolate Milktea, blending premium tea with the decadent taste of chocolate for a luxurious and satisfying beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Pearl Milktea" data-price="49">
+            <img src="images/pearl milk tea.jpg" alt="Pearl Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Pearl Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the classic and satisfying Pearl Milktea, featuring premium tea paired with chewy tapioca pearls for a refreshing and enjoyable beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Winter Melon Milktea" data-price="49">
+            <img src="images/winter melon milktea.jpg" alt="Winter Melon Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Winter Melon Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the delightful sweetness of Winter Melon Milktea, crafted with premium tea and winter melon flavor for a refreshing and satisfying drink.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Matcha Milktea" data-price="49">
+            <img src="images/matcha milktea.jpg" alt="Matcha Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Matcha Milktea</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the earthy and aromatic flavor of Matcha Milktea, blending premium tea with the distinctive taste of matcha for a satisfyingly unique beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        
+        
+
+    
+
+        
+        <!-- Iced Americano -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;Iced Americano&mdash;&mdash;&mdash;</h3>
+        </div>
+    
+        
+        <div class="drink-items" data-name="Original Iced Americano" data-price="49">
+            <img src="images/iced americano.jpg" alt="Original Iced Americano">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Original Iced Americano</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the bold and refreshing taste of Original Iced Americano, crafted with freshly brewed espresso poured over ice for a satisfyingly invigorating beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Vanilla Iced Americano" data-price="49">
+            <img src="images/iced americano.jpg" alt="Vanilla Iced Americano">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Vanilla Iced Americano</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the smooth and creamy flavor of Vanilla Iced Americano, combining freshly brewed espresso with a hint of vanilla syrup for a delightful and refreshing beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Caramel Iced Americano" data-price="49">
+            <img src="images/iced americano.jpg" alt="Caramel Iced Americano">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Caramel Iced Americano</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the rich and indulgent flavor of Caramel Iced Americano, featuring freshly brewed espresso with a swirl of caramel syrup over ice for a satisfyingly sweet beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Hazelnut Iced Americano" data-price="49">
+            <img src="images/iced americano.jpg" alt="Hazelnut Iced Americano">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Hazelnut Iced Americano</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the nutty and aromatic flavor of Hazelnut Iced Americano, combining freshly brewed espresso with a touch of hazelnut syrup for a rich and satisfying beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+    
+
+
+        <!-- Seasonal Series -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;Seasonal Series&mdash;&mdash;&mdash;</h3>
+        </div>
+    
+        
+        <div class="drink-items" data-name="White Mocha" data-price="55">
+            <img src="images/white mocha.jpg" alt="White Mocha">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>White Mocha</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Indulge in the rich and creamy flavor of White Mocha, blending smooth espresso with velvety milk and sweet white chocolate for a delightful beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Spanish Latte" data-price="55">
+            <img src="images/spanish latte.jpg" alt="Spanish Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Spanish Latte</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Enjoy the bold and rich taste of Spanish Latte, combining espresso with condensed milk for a sweet and creamy beverage reminiscent of cafes in Spain.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Kape Tisoy" data-price="55">
+            <img src="images/kape tisoy.jpg" alt="Kape Tisoy">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Kape Tisoy</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Experience the traditional Filipino coffee taste with Kape Tisoy, a smooth and robust blend of local coffee beans and creamy milk, perfect for coffee lovers.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Thai Milktea" data-price="55">
+            <img src="images/thai milktea.jpg" alt="Thai Milktea">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Thai Milktea</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Indulge in the exotic and aromatic flavors of Thai Milktea, featuring black tea infused with spices, condensed milk, and a hint of sweetness, reminiscent of street-side tea stalls in Thailand.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Thai Coffee" data-price="55">
+            <img src="images/thai coffee.jpg" alt="Thai Coffee">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Thai Coffee</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Experience the bold and intense flavors of Thai Coffee, crafted with strong brewed coffee and sweetened condensed milk, offering a unique and satisfying coffee experience inspired by Thailand's coffee culture.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Nam Than" data-price="55">
+            <img src="images/nam than.jpg" alt="Nam Than">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Nam Than</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Discover the refreshing taste of Nam Than, a traditional Vietnamese iced coffee made with strong brewed coffee, sweetened condensed milk, and served over ice, perfect for cooling down on a hot day.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+
+
+        <!-- Special Choco Series -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;Special Choco Series&mdash;&mdash;&mdash;</h3>
+        </div>
+    
+        
+        <div class="drink-items" data-name="Dark Mocha Coffee" data-price="55">
+            <img src="images/dark mocha coffee.jpg" alt="Dark Mocha Coffee">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Dark Mocha Coffee</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Indulge in the bold and rich flavors of Dark Mocha Coffee, featuring a blend of dark chocolate and espresso, creating a decadent and satisfying beverage for coffee enthusiasts.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Cookie Monster" data-price="55">
+            <img src="images/cookie monster.jpg" alt="Cookie Monster">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Cookie Monster</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Experience the fun and sweetness of Cookie Monster, a delightful concoction blending creamy milk with chunks of chocolate chip cookies, offering a playful and delicious treat for all ages.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Chocolate Duo" data-price="55">
+            <img src="images/chocolate duo.jpg" alt="Chocolate Duo">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Chocolate Duo</h5>
+                    <h5 class="price">Php55</h5>
+                </div>
+                <p>Indulge in the heavenly combination of Chocolate Duo, featuring a blend of rich dark chocolate and creamy milk chocolate, creating a harmonious and indulgent beverage perfect for chocolate lovers.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+
+    
+
+
+        <!-- Hot Drinks -->
+        <div class="section">
+            <h3>&mdash;&mdash;&mdash;Hot Drinks&mdash;&mdash;&mdash;</h3>
+        </div>
+    
+    
+        <div class="drink-items" data-name="Kkopi Hot Barako" data-price="49">
+            <img src="images/hot coffee.jpg" alt="Kkopi Hot Barako">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Kkopi Hot Barako</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the bold and robust flavor of Kkopi Hot Barako, a rich and aromatic coffee brewed from premium Barako beans, offering a satisfying and invigorating hot beverage option.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Caramel Hot Latte" data-price="49">
+            <img src="images/hot coffee.jpg" alt="Caramel Hot Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Caramel Hot Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the creamy sweetness of Caramel Hot Latte, featuring smooth espresso combined with rich caramel syrup and steamed milk, creating a delightful and comforting hot beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Vanilla Hot Latte" data-price="49">
+            <img src="images/hot coffee.jpg" alt="Vanilla Hot Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Vanilla Hot Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Enjoy the smooth and aromatic flavor of Vanilla Hot Latte, featuring espresso infused with creamy vanilla syrup and steamed milk, offering a comforting and indulgent hot beverage option.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Hazelnut Hot Latte" data-price="49">
+            <img src="images/hot coffee.jpg" alt="Hazelnut Hot Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Hazelnut Hot Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the nutty and rich flavor of Hazelnut Hot Latte, featuring espresso combined with smooth hazelnut syrup and steamed milk, creating a delicious and comforting hot beverage.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Hot Chocolate" data-price="49">
+            <img src="images/hot coffee.jpg" alt="Hot Chocolate">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Hot Chocolate</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the rich and velvety taste of Hot Chocolate, featuring creamy milk and premium chocolate, blended and served hot for a comforting and indulgent beverage experience.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Kkopi Hot Latte" data-price="49">
+            <img src="images/hot coffee.jpg" alt="Kkopi Hot Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Kkopi Hot Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Experience the smooth and comforting flavor of Kkopi Hot Latte, featuring espresso combined with steamed milk, offering a classic and satisfying hot beverage option.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+        <div class="drink-items" data-name="Matcha Hot Latte" data-price="49">
+            <img src="images/hot coffee.jpg" alt="Matcha Hot Latte">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Matcha Hot Latte</h5>
+                    <h5 class="price">Php49</h5>
+                </div>
+                <p>Indulge in the earthy and creamy flavor of Matcha Hot Latte, featuring high-quality matcha powder combined with steamed milk, offering a comforting and antioxidant-rich hot beverage option.</p>
+                <button onclick="addToCart(this)">Add to Order List</button>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> 
+
+
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <p>Contact us: franchise@kkopitea.com </p>
+            <p>&copy; 2024 Kkopi. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <nav class="cart-nav hidden" id="cart-nav">
+        <div class="cart">
+            <h4>Order List</h4>
+            <ul id="cart-items"></ul>
+            <h5>Total: Php <span id="total-price">0</span></h5>
+            <button id="checkout-button">Checkout</button>
+            <button id="clear-cart-button">Clear Cart</button>
+        </div>
+    </nav>
+    <div id="receipt-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h4>Receipt</h4>
+            <div id="receipt"></div>
+        </div>
+    </div>
+
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
